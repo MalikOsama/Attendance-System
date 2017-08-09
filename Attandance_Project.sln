@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Attandance_Project", "Attandance_Project\Attandance_Project.csproj", "{206ACC70-9D15-454F-99F9-DFD0E74ABDFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{206ACC70-9D15-454F-99F9-DFD0E74ABDFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{206ACC70-9D15-454F-99F9-DFD0E74ABDFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{206ACC70-9D15-454F-99F9-DFD0E74ABDFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{206ACC70-9D15-454F-99F9-DFD0E74ABDFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

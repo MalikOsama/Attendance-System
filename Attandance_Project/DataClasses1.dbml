@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Attandance_System" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-K3NHTFQ;Initial Catalog=Attandance_System;Integrated Security=True" SettingsObjectName="Attandance_Project.Properties.Settings" SettingsPropertyName="Attandance_SystemConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Attandance_Record" Member="Attandance_Records">
+    <Type Name="Attandance_Record">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Roll_No" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Date_Time" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Department" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Subject_Course" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Present" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Year" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.login" Member="logins">
+    <Type Name="login">
+      <Column Name="id" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="[User]" Member="User" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Registration" Member="Registrations">
+    <Type Name="Registration">
+      <Column Name="Roll" Type="System.String" DbType="VarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Father" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Gender" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Department" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Batch_Year" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Mobile" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Cnic" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Addresss" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Picture" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Date_Time" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="Computer_code" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
